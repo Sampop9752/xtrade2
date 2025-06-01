@@ -35,7 +35,7 @@
       const fromDate = formData.get('from') + " 00:00:00";
       const toDate = formData.get('to') + " 23:59:59";
 
-      const res = await fetch('/pull-statuses', {
+      const res = await fetch('https://xtrade2-azvk.onrender.com/pull-statuses', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
