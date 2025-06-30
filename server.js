@@ -46,7 +46,7 @@ app.post('/submit', async (req, res) => {
       term: "term",
       campaign: "campaign",
       medium: "cpc",
-      lg: "  AR"
+      lg: "AR"
     };
 
     const headers = {
